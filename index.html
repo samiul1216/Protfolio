@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samiul Alam | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+<header>
+  <nav>
+    <div class="container nav-container">
+      <h2 class="logo">Samiul<span>Alam</span></h2>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Theme Toggle Button -->
+      <button id="theme-toggle">🌙 Dark Mode</button>
+    </div>
+  </nav>
+</header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Samiul Alam</span> 👋</h1>
+        <p>Student of Computer Science & Engineering | Aspiring QA/Manual Tester</p>
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="assets/Samiul_Alam_CV.pdf" class="btn btn-outline" download>Download CV</a>
+      </div>
+      <div class="hero-img">
+        <img src="assets/profile.jpg" alt="Samiul Profile">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container about-container">
+      <div class="about-img">
+        <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hello! I am passionate about software testing and quality assurance. I aim to become a skilled QA/Manual Tester ensuring high-quality software products.</p>
+        <p><strong>Email:</strong> alam22205101675@diu.edu.bd</p>
+        <p><strong>Phone:</strong> 01761852161</p>
+        <p><strong>Location:</strong> Kushtia, Bangladesh</p>
+        <p>
+          <a href="https://github.com/samiul1216" target="_blank">GitHub</a> | 
+          <a href="https://www.linkedin.com/in/samiul-alam-1a8a14333" target="_blank">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Manual Testing</li>
+        <li>Bug Reporting</li>
+        <li>Test Case Writing</li>
+        <li>Python (Basic)</li>
+        <li>HTML, CSS, JavaScript</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Obesity Level Prediction (ResNN Model)</h3>
+        <p>Worked on predicting obesity levels using a Residual Neural Network (ResNN). 
+        Compared multiple activation functions (<b>ReLU, Swish, Leaky ReLU, Mish</b>), 
+        where <b>ReLU</b> showed the best performance with higher accuracy after batch normalization.</p>
+      </div>
+
+      <div class="project">
+        <h3>Nomads Nook - Home Rental Website</h3>
+        <p>A team project (5 members) where we built a platform for <b>renting homes, restaurants, or vacation spots</b>. 
+        The goal was to make it easy for people to find rental places while traveling or relocating.</p>
+      </div>
+
+      <div class="project">
+        <h3>Obesity Research Paper</h3>
+        <p>Currently working on a <b>research paper</b> focused on comparing machine learning and deep learning models 
+        for obesity prediction, analyzing which activation functions perform better for different scenarios.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>You can download my resume by clicking the button below:</p>
+      <a href="assets/Samiul_Alam_CV.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/xkgngyrd" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Samiul Alam. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
