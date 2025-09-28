@@ -8,23 +8,22 @@
 </head>
 <body>
   <!-- Navbar -->
-<header>
-  <nav>
-    <div class="container nav-container">
-      <h2 class="logo">Samiul<span>Alam</span></h2>
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <!-- Theme Toggle Button -->
-      <button id="theme-toggle">🌙 Dark Mode</button>
-    </div>
-  </nav>
-</header>
+  <header>
+    <nav>
+      <div class="container nav-container">
+        <h2 class="logo">Samiul<span>Alam</span></h2>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+      </div>
+    </nav>
+  </header>
 
   <!-- Hero Section -->
   <section id="hero">
@@ -62,41 +61,43 @@
   </section>
 
   <!-- Skills Section -->
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <ul>
-        <li>Manual Testing</li>
-        <li>Bug Reporting</li>
-        <li>Test Case Writing</li>
-        <li>Python (Basic)</li>
-        <li>HTML, CSS, JavaScript</li>
-      </ul>
-    </div>
-  </section>
+<section id="skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Manual Testing</li>
+      <li>Bug Reporting</li>
+      <li>Test Case Writing</li>
+      <li>Python (Basic)</li>
+      <li>HTML, CSS, JavaScript</li>
+    </ul>
+  </div>
+</section>
+
 
   <!-- Projects Section -->
   <section id="projects">
     <div class="container">
       <h2>Projects</h2>
 
-      <div class="project">
-        <h3>Obesity Level Prediction (ResNN Model)</h3>
-        <p>Worked on predicting obesity levels using a Residual Neural Network (ResNN). 
-        Compared multiple activation functions (<b>ReLU, Swish, Leaky ReLU, Mish</b>), 
-        where <b>ReLU</b> showed the best performance with higher accuracy after batch normalization.</p>
-      </div>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Obesity Level Prediction (ResNN Model)</h3>
+          <p>Worked on predicting obesity levels using Residual Neural Network (ResNN).
+          Compared activation functions <b>ReLU, Swish, Leaky ReLU, Mish</b>, where <b>ReLU</b> gave best accuracy.</p>
+        </div>
 
-      <div class="project">
-        <h3>Nomads Nook - Home Rental Website</h3>
-        <p>A team project (5 members) where we built a platform for <b>renting homes, restaurants, or vacation spots</b>. 
-        The goal was to make it easy for people to find rental places while traveling or relocating.</p>
-      </div>
+        <div class="project-card">
+          <h3>Nomads Nook - Home Rental Website</h3>
+          <p>A team project where we built a platform for <b>renting homes, restaurants, vacation spots</b>.
+          It helps people find rental places easily while traveling or relocating.</p>
+        </div>
 
-      <div class="project">
-        <h3>Obesity Research Paper</h3>
-        <p>Currently working on a <b>research paper</b> focused on comparing machine learning and deep learning models 
-        for obesity prediction, analyzing which activation functions perform better for different scenarios.</p>
+        <div class="project-card">
+          <h3>Obesity Research Paper</h3>
+          <p>Currently working on a <b>research paper</b> comparing machine learning vs deep learning models 
+          for obesity prediction, analyzing activation functions.</p>
+        </div>
       </div>
     </div>
   </section>
